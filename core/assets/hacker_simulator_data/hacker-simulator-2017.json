@@ -1,0 +1,271 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	button: {
+		file: font-button-export.fnt
+	}
+	font: {
+		file: font-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	clear: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0
+	}
+	down: {
+		r: 0.0024073878
+		g: 0.4333333
+		b: 0
+		a: 1
+	}
+	green: {
+		r: 0
+		g: 1
+		b: 0
+		a: 1
+	}
+	shade: {
+		r: 0.43
+		g: 0.43
+		b: 0.43
+		a: 1
+	}
+	stage-bg: {
+		r: 0
+		g: 0
+		b: 0
+		a: 0.88
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	image-log-in-pressed: {
+		name: image-log-in
+		color: shade
+	}
+	image-brute-force-pressed: {
+		name: image-brute-force
+		color: down
+	}
+	image-mail-pressed: {
+		name: image-mail
+		color: shade
+	}
+	image-send-mail-pressed: {
+		name: image-send-mail
+		color: shade
+	}
+	image-virus-pressed: {
+		name: image-virus
+		color: shade
+	}
+	image-vulnerability-pressed: {
+		name: image-vulnerability
+		color: shade
+	}
+	black: {
+		name: white
+		color: black
+	}
+	stage-bg: {
+		name: white
+		color: stage-bg
+	}
+	green: {
+		name: white
+		color: green
+	}
+	shade: {
+		name: white
+		color: shade
+	}
+	button-clear: {
+		name: button-pressed
+		color: clear
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: green
+	}
+	title: {
+		font: button
+		fontColor: green
+	}
+	window-title: {
+		font: font
+		fontColor: green
+		background: title-label-bg
+	}
+	server: {
+		font: font
+		fontColor: green
+		background: server
+	}
+	markup: {
+		font: font
+	}
+	box: {
+		font: font
+		fontColor: green
+		background: button
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: scrollbar
+		vScrollKnob: scrollbar
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: button
+		fontColor: green
+		downFontColor: black
+		up: button
+		down: button-pressed
+	}
+	list: {
+		font: font
+		fontColor: green
+		downFontColor: shade
+		overFontColor: white
+		checkedFontColor: black
+		checkedOverFontColor: shade
+		up: link
+		down: link-down
+		over: link-over
+		checked: link-pressed
+		checkedOver: link-pressed-over
+	}
+	small: {
+		font: font
+		fontColor: green
+		downFontColor: black
+		up: button
+		down: button-pressed
+	}
+	email: {
+		font: font
+		fontColor: green
+		downFontColor: shade
+		overFontColor: white
+		up: button-clear
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: green
+		background: button
+		cursor: green
+		selection: shade
+	}
+	prompt: {
+		font: font
+		fontColor: green
+		background: prompt
+		cursor: green
+		selection: shade
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+		titleFontColor: green
+	}
+	dialog: {
+		background: window
+		titleFont: font
+		titleFontColor: green
+		stageBackground: stage-bg
+	}
+}
+com.ray3k.hackersimulator.DesktopButton$DesktopButtonStyle: {
+	brute-force: {
+		up: image-brute-force
+		text: Brute Force Hack
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-brute-force-pressed
+	}
+	log-in: {
+		up: image-log-in
+		text: Log In
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-log-in-pressed
+	}
+	mail: {
+		up: image-mail
+		text: Open Mail
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-mail-pressed
+	}
+	send-mail: {
+		up: image-send-mail
+		text: Send Mail
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-send-mail-pressed
+	}
+	virus: {
+		up: image-virus
+		text: Install Key Logger.exe
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-virus-pressed
+	}
+	vulnerability: {
+		up: image-vulnerability
+		text: Vulnerability Hack
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-vulnerability-pressed
+	}
+	ransom: {
+		up: image-virus
+		text: Install Ransome Ware
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-virus-pressed
+	}
+	delete: {
+		up: image-virus
+		text: Delete All Personal Files
+		upFontColor: green
+		downFontColor: down
+		font: font
+		down: image-virus-pressed
+	}
+}
+}

@@ -1,0 +1,184 @@
+
+hacker-simulator-2017.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 472, 476
+  size: 20, 20
+  split: 1, 1, 1, 1
+  pad: 6, 6, 2, 2
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 68, 155
+  size: 20, 20
+  split: 1, 1, 1, 1
+  pad: 6, 6, 2, 2
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+font-button-export
+  rotate: false
+  xy: 1, 312
+  size: 183, 184
+  orig: 183, 184
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 203
+  size: 106, 107
+  orig: 106, 107
+  offset: 0, 0
+  index: -1
+image-brute-force
+  rotate: false
+  xy: 1, 136
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+image-log-in
+  rotate: false
+  xy: 109, 245
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+image-mail
+  rotate: false
+  xy: 186, 352
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+image-phishing
+  rotate: false
+  xy: 288, 431
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+image-send-mail
+  rotate: false
+  xy: 1, 69
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+image-virus
+  rotate: false
+  xy: 1, 1
+  size: 65, 66
+  orig: 65, 66
+  offset: 0, 0
+  index: -1
+image-vulnerability
+  rotate: false
+  xy: 355, 431
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+link
+  rotate: false
+  xy: 186, 331
+  size: 48, 19
+  split: 20, 0, 0, 17
+  pad: 25, 6, 1, 1
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+link-down
+  rotate: false
+  xy: 422, 435
+  size: 48, 19
+  split: 20, 0, 0, 17
+  pad: 25, 6, 1, 1
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+link-over
+  rotate: false
+  xy: 422, 456
+  size: 48, 19
+  split: 20, 0, 0, 17
+  pad: 25, 6, 1, 1
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+link-pressed
+  rotate: false
+  xy: 422, 477
+  size: 48, 19
+  split: 20, 0, 0, 17
+  pad: 25, 6, 1, 1
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+link-pressed-over
+  rotate: false
+  xy: 109, 204
+  size: 48, 19
+  split: 20, 0, 0, 17
+  pad: 25, 6, 1, 1
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+prompt
+  rotate: false
+  xy: 253, 396
+  size: 22, 21
+  split: 4, 0, 0, 15
+  pad: 8, 3, 0, 0
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+scrollbar
+  rotate: false
+  xy: 186, 315
+  size: 14, 14
+  split: 1, 1, 1, 1
+  pad: 0, 0, 0, 0
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+server
+  rotate: false
+  xy: 68, 177
+  size: 37, 24
+  split: 13, 0, 0, 0
+  pad: 17, 3, 0, 0
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+title-label-bg
+  rotate: false
+  xy: 109, 225
+  size: 55, 18
+  split: 0, 0, 0, 0
+  pad: 10, 10, 0, 1
+  orig: 55, 18
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 176, 309
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 186, 419
+  size: 100, 77
+  split: 21, 21, 23, 1
+  pad: 2, 2, 24, 2
+  orig: 100, 77
+  offset: 0, 0
+  index: -1
